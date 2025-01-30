@@ -1,0 +1,33 @@
+class Vehicle {
+  void start() {
+    print("vehicle is starting");
+  }
+
+  void stop() {
+    print("vehicle is stopped");
+  }
+}
+
+class Car extends Vehicle {
+  String name = "BMW";
+  @override
+  void start() {
+    super.stop();
+    super.start();
+    print("$name is starting");
+  }
+
+  @override
+  void stop() {
+    print("$name is stopped");
+  }
+}
+
+void main() {
+  // Vehicle vehicle = Vehicle();
+  // vehicle.start();
+  // vehicle.stop();
+  Car car = Car();
+  car.start();
+  car.stop();
+}
