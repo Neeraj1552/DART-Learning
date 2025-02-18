@@ -1,9 +1,9 @@
 Future<void> main() async {
-  print("first ttask done");
-  await Future.delayed(Duration(seconds: 2), () {
-    print("second task done");
+  print("first task completed ");
+  await Future.delayed(Duration(seconds: 5), () {
+    print("second task completed ");
   });
-  Future.delayed(Duration(seconds: 2), () {
-    print("third task done");
+  Future.delayed(Duration(seconds: 4), () {
+    print("third task completed ");
   });
 }
