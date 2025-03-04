@@ -10,6 +10,6 @@ class Student {
 }
 
 void main() {
-  Student student = Student('Amal', '10th grade', 16, 'amal123@gmail.com,18');
+  Student student = Student('user', '10th grade', 16, 'amal123@gmail.com,18');
   student.display();
 }
