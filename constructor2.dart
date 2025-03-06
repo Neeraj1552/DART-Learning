@@ -14,6 +14,6 @@ class Car {
 }
 
 void main() {
-  Car car = Car("Ferrari", 10000000.0);
+  Car car = Car("Ferrari", 100000.0);
   car.display();
 }
