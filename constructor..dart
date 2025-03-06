@@ -15,7 +15,7 @@ class Student {
 }
 
 void main() {
-  Student student = Student("apple", 18, 32, "USA");
+  Student student = Student("apple", 28, 32, "UK");
 
   print("name is ${student.name}");
   print("age is ${student.age}");
