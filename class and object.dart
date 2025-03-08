@@ -11,7 +11,7 @@ class Animal {
 void main() {
   Animal animal = Animal();
   animal.name = "Dog";
-  animal.numberOfLegs = 4;
+  animal.numberOfLegs = 6;
 
   animal.display();
 }
