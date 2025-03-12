@@ -1,6 +1,6 @@
 void main() {
-  int num1 = 10;
-  int num2 = 20;
+  int num1 = 20;
+  int num2 = 30;
   int sum = num1 + num2;
   int multi = num1 * num2;
   int diff = num1 - num2;
