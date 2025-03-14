@@ -18,6 +18,6 @@ class Staff {
 }
 
 void main() {
-  Staff staff = Staff("John", 1234567890, "Maths");
+  Staff staff = Staff("John", 12345678900, "Maths");
   staff.display();
 }
