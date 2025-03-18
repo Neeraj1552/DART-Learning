@@ -5,7 +5,7 @@ mixin vehicle {
 }
 mixin Bus {
   void b() {
-    print("bus walk");
+    print("bus run");
   }
 }
 
