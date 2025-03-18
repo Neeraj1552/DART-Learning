@@ -3,6 +3,6 @@ void main() {
   print("fruits are $Fruits");
   Fruits.add("apple");
   print(Fruits);
-  Fruits.insert(2, "Anar");
+  Fruits.insert(2, "banana");
   print(Fruits);
 }
