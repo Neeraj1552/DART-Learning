@@ -4,5 +4,5 @@ void add(int num1, int num2) {
 }
 
 void main() {
-  add(30, 20);
+  add(30, 26);
 }
