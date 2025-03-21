@@ -11,6 +11,6 @@ void main() {
   Car myCar = Car("Toyota");
   print("Car name is: ${myCar.name}");
 
-  myCar.name = "benz";
+  myCar.name = "benzz";
   print("Updated car name is: ${myCar.name}");
 }
