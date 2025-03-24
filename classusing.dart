@@ -9,6 +9,6 @@ class Bicycle {
 }
 
 void main() {
-  Bicycle bike = Bicycle("black");
+  Bicycle bike = Bicycle("blue");
   bike.showColor();
 }
