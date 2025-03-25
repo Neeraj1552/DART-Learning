@@ -1,5 +1,5 @@
 abstract class Vehicle {
-  String? name = "aaaaaa";
+  String? name = "aaaaaaa";
   void start();
 }
 
