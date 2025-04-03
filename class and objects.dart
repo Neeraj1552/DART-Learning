@@ -14,6 +14,6 @@ void main() {
   Animal animal = Animal();
   animal.name = "lion";
   animal.legs = 5;
-  animal.lifespan = 5;
+  animal.lifespan = 8;
   animal.abc();
 }
