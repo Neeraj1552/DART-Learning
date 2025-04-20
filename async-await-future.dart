@@ -3,7 +3,7 @@ Future<void> main() async {
   await Future.delayed(Duration(seconds: 4), () {
     print("second task completed ");
   });
-  Future.delayed(Duration(seconds: 5), () {
+  Future.delayed(Duration(seconds: 6), () {
     print("third task completed ");
   });
 }
