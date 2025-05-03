@@ -1,5 +1,5 @@
 class Animal {
-  String name = "Animall";
+  String name = "Animal";
 }
 
 class Dog extends Animal {}
