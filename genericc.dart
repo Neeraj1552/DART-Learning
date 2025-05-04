@@ -5,7 +5,7 @@ class Data<T> {
 
 void main() {
   // create an object of type int and double
-  Data<int> intData = Data<int>(10);
+  Data<int> intData = Data<int>(11);
   Data<double> doubleData = Data<double>(10.5);
 
   print("IntData: ${intData.data}");
