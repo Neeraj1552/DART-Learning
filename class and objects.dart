@@ -13,7 +13,7 @@ class Animal {
 void main() {
   Animal animal = Animal();
   animal.name = "lion";
-  animal.legs = 8;
+  animal.legs = 9;
   animal.lifespan = 7;
   animal.abc();
 }
